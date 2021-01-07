@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void triangulo (int a, int  b, int c)
+{
+ if (a< b+c || b<c+a || c<a+b)
+{
+printf ("Nao  eh triangulo");
+    }else {
+	printf (" eh triangulo");
+  }  
+}
+
+
+
+void	 main (void)
+/*  Dia 02.03.2020
+triangulo
+ */
+{
+ int a=3,b=4,c=6;
+  triangulo(a,b,c);
+
+}

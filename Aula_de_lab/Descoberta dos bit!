@@ -1,0 +1,12 @@
+#include <stdio.h>
+/* Aula de lab dia 26.02.2020*/
+void main (void)
+{
+	printf ("o tamanho do char é %d bytes. \n",sizeof(char));
+	printf ("o tamanho do short é %d bytes. \n",sizeof(short));
+	printf ("o tamanho do int é %d bytes. \n",sizeof(int));
+	printf ("o tamanho do long é %d bytes. \n",sizeof(long));
+	printf ("o tamanho do float é %d bytes. \n",sizeof(float));
+	printf ("o tamanho do double é %d bytes. \n",sizeof(double));
+
+}

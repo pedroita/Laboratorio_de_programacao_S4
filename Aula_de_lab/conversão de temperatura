@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void temperatura (float a)
+{
+float tf;
+float formula= (a/5);
+float resultado=formula*9;
+ tf=resultado+32;
+//tf=((a*9)/5)+32;
+float celsios;
+celsios=((tf-32)*5)/9;
+printf ("o valor em %f  ",tf);
+printf ("o valor de fahrenheit : %f ", celsios);
+}
+
+
+void main (void)
+{
+  float a=40;
+temperatura(a);
+}

@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <locale.h>
+
+struct address_s
+{
+    char *rua ;
+    int num;
+    char *bairro ;
+    char *cidade ;
+    char *cep;
+    /* data */
+};
+
+void print_address(struct address_s *);
+
+
+void main (void)
+{
+    //setlocale (LC_ALL, "Portugues");
+    struct address_s add;
+    add.rua="Rua Felipe Santiago";
+    add.num =441;
+    add.bairro="Cidade Universitária";
+    add.cidade="Russas";
+    add.cep= "62.900-000";
+    print_address(&add);
+    
+}
+void print_address (struct address_s *a)
+{
+
+    printf ("Rua : %s.\n",a->rua);
+    printf ("Número : %d.\n",a->num);
+    printf ("Bairro : %s.\n",a->bairro);
+    printf ("Cidade : %s.\n",a->cidade);
+    printf ("CEP : %s.\n",a->cep);
+    
+}
