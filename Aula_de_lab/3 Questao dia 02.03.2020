@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+/* Atividade dia 02.03.2020
+  dois pontos
+ */
+void dois_pontos(int a, int b,int c, int d)
+{
+
+  int Da= (b-a);
+  int Da2= (d-a);
+  int muti= Da*Da;
+  int muti2= Da2*Da2;
+ int  Dab= sqrt(muti+muti2);
+  printf (" A distancia entre dois pontos é : %d \n ",Dab);
+}
+
+void main (void)
+{
+int a=5,b=3,c=8,d=9;
+dois_pontos(a,b,c,d);
+}

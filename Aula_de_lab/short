@@ -1,0 +1,27 @@
+#include <stdio.h>
+/* Aula de lab dia 26.02.2020*/
+void main (void)
+{
+	/*os print foram referentes aos tamanhos de cada caractere da devidas variaveis abaixo*/
+	printf ("o tamanho do char é %d bytes. \n",sizeof(char));
+	printf ("o tamanho do short é %d bytes. \n",sizeof(short));
+	printf ("o tamanho do int é %d bytes. \n",sizeof(int));
+	printf ("o tamanho do long é %d bytes. \n",sizeof(long));
+	printf ("o tamanho do float é %d bytes. \n",sizeof(float));
+	printf ("o tamanho do double é %d bytes. \n",sizeof(double));
+	/* esta recebendo valor pra se printado
+	char c = 1;
+
+	printf ("O valor de c= %d, que equivale a %c \n ",c,c);
+	*/
+  short s=32767;/*limite do short maior*/
+	short s2=-32768;/*limite do short menor*/
+
+	unsigned short s3=65535; /* atribui o valor maior */
+	
+	printf (" O Valor de s =%d \n",s);		
+	printf (" O Valor de s2 =%d \n",s2);		
+	printf (" O Valor de s3 =%d \n",s3);		
+	
+
+}

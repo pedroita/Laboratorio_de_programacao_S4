@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+void tela (int a, int  b, int c)
+{
+printf (" %d . (x^2) + %d . x + c = 0 \n", a,b,c); 
+
+}
+
+
+void raiz (int a, int b, int c)
+{	
+  int delta=0,x1,x2;
+  delta= ((b*b) - (4*a*c));
+  printf ("%d  \n" ,delta);
+ // int delta1= sqrt(delta);
+  //printf ("%d /n", delta1); 
+ if (delta > 0)
+ {
+  	x1=((-b-sqrt(delta))/(2*a));
+	x2=((-b+sqrt(delta))/(2*a));
+	printf ("%d raiz um, %d raiz dois",x1,x2);
+ } 
+}
+
+
+
+
+void main (void)
+/*  Dia 02.03.2020
+equação
+ */
+{
+ int a=1,b=4,c=1;
+  tela(a,b,c);
+  raiz(a,b,c);
+}
