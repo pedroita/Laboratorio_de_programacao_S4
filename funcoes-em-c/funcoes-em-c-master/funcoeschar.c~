@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* a função irá retornar caracteres */
+/*Dia 29*05*2020*/
+int retorno10()
+{
+   return 10;
+}
+
+int main ()
+{
+    ;
+    return 0 ;
+}
