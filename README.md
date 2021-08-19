@@ -1,2 +1,2 @@
-# Laboratorio_de_programacao_S4
-Nesse repositório encontra-se meus códigos feitos durante toda a cadeira.
+# Programação em C
+Coloquei nesse repositorio, meus primeiros codigos feitos na linguagem C, no começo da minha graduação 
